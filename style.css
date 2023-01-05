@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.bg-container {
+    background-image: url("https://wallpapercave.com/wp/THsknvO.jpg");
+    height: 150vh;
+    background-size: cover;
+}
+
+.container {
+    min-width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px 8px 8px 8px;
+    background-color: #e0e0e0;
+    box-shadow: 2px 2px 8px 8px #fff;
+    padding: 10px;
+
+}
+
+#display {
+    text-align: right;
+    width: 300px;
+    height: 80px;
+    line-height: 50px;
+    padding: 16px 16px;
+    font-size: 30px;
+    color: white;
+    margin: 20px 10px 20px 10px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 32px;
+    box-shadow: inset -6px -6px 13px rgb(7, 7, 7), inset 6px 6px 13px rgb(0, 0, 0, .16);
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    gap: 1px;
+
+}
+
+.row button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    transition: 0.2s all linear;
+    background-color: #ecf0f3;
+    box-shadow: 6px 6px 13px #fff, 6px 6px 13px rgba(0, 0, 0, .16);
+}
+
+.special-key {
+    background-image: radial-gradient(pink, white);
+}
+
+.func {
+    background-image: radial-gradient(skyblue, white);
+}
+
+.row button:hover {
+    background-image: radial-gradient(pink, skyblue);
+}
+
+.row button:active {
+    background-color: #eeb3b3;
+}
+
+#equal {
+    width: 100px;
+}
+
+#dot {
+    font-weight: 600;
+}
